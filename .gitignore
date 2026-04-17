@@ -1,0 +1,61 @@
+# Dependências
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos de ambiente
+.env
+.env.*
+!.env.example
+
+# Build / produção
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Cobertura de testes
+coverage/
+
+# Arquivos de IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de sistema operacional
+ehthumbs.db
+Icon?
+
+# Configurações de pacote
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Docker
+.dockerignore
+
+# Outros
+*.tgz
+*.pid
+*.seed
